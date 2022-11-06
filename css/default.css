@@ -1,0 +1,715 @@
+/*  Ein Kommentar in CSS */
+
+/*  Der * definiert den "global reset" Hier werden alle Elemente angesprochen, die später nicht anders definiert werden. */
+*
+{
+	font-family:  'Source Sans Pro', arial, sans-serif;
+	font-size:100%;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+html,body
+{
+	height:100%;
+}
+
+body 
+{
+	background:white;
+	color:white;
+	margin:0px;
+}
+
+#blau
+{
+	background-color: rgb(69, 112, 136);
+}
+
+#gruen
+{
+	background-color: rgb(108, 150, 89);
+}
+
+#gelb
+{
+	background-color: rgb(237, 172, 51);
+}
+
+/* ### MAMA ### */
+
+/* Seiten ABOUT + GALLERY + CONTACTS + LEGAL sind blau */
+#mama
+{
+	width: 1200px;
+	min-height: 800px;
+	background-color: rgb(69, 112, 136);
+	margin: 0px auto;
+}
+
+/* Unterseiten LODGE + SPA sind grün */
+#mama-lodge
+{
+	width: 1200px;
+	min-height: 800px;
+	background-color: rgb(108, 150, 89);
+	margin: 0px auto;
+}
+
+/* Unterseiten CANTINA + BAR sind gelb */
+#mama-cantina
+{
+	width: 1200px;
+	min-height: 800px;
+	background-color: rgb(237, 172, 51);
+	margin: 0px auto;
+}
+
+/* ###################### */
+/* ### Start HEAD + NAVI ### */
+#eins
+{
+	height: 300px;
+	_background-color: purple;
+	background: url(../images/about_desktop.jpg);
+	background-size: 100%;
+}
+
+#eins-lodge
+{
+	height: 300px;
+	_background-color: purple;
+	background: url(../images/lodge_desktop.jpg);
+	background-size: 100%;
+}
+
+#eins-spa
+{
+	height: 300px;
+	_background-color: purple;
+	background: url(../images/spa_desktop.jpg);
+	background-size: 100%;
+}
+
+#eins-cantina
+{
+	height: 300px;
+	_background-color: purple;
+	background: url(../images/cantina_desktop.jpg);
+	background-size: 100%;
+}
+
+#eins-bar
+{
+	height: 300px;
+	_background-color: purple;
+	background: url(../images/bar_desktop.jpg);
+	background-size: 100%;
+}
+
+#eins-gallery
+{
+	height: 300px;
+	_background-color: purple;
+	background: url(../images/gallery_desktop.jpg);
+	background-size: 100%;
+}
+
+#eins-contacts
+{
+	height: 300px;
+	_background-color: purple;
+	background: url(../images/contacts_desktop.jpg);
+	background-size: 100%;
+}
+
+#logo
+{
+	height: 250px;
+	_background-color: darkorange;
+	text-align: center;
+}
+
+h1
+{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 700%;
+	padding-top: 10px;
+}
+
+h2
+{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 275%;
+	margin-top: -30px;
+}
+
+#navi
+{
+	min-height: 50px;
+	background-color: rgb(69, 112, 136, .6);
+}
+
+#navi-lodge
+{
+	min-height: 50px;
+	background-color: rgb(108, 150, 89, .6);
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#navi-cantina
+{
+	min-height: 50px;
+	background-color: rgb(237, 172, 51, .6);
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.navipunkte
+{
+	width: 100px;
+	font-size: 120%;
+	text-align: center;
+	line-height: 50px;
+	_background-color: darkslateblue;
+	_border: solid 2px white;
+}
+/* ### Ende HEAD + NAVI ### */
+
+
+/* ################## */
+/* ### Start INHALT ### */
+#zwei
+{
+	min-height: 434px;
+	_background-color: teal;
+}
+
+#inhalt
+{
+	width: 800px;
+	min-height: 434px;
+	_background-color: turquoise;
+	border-bottom: solid 2px white;
+	margin: auto;
+	padding: 20px;
+	padding-bottom: 20px;
+}
+
+#inhalt-gallery-mob
+{
+	display: none;
+}
+
+#bootstrap-slider
+{
+	width: 1200px;
+	min-height: 434px;
+	margin: auto;
+	padding: 20px;
+	padding-bottom: 20px;
+}
+
+#video
+{
+	width: 95%;
+	min-height: auto;
+	border-bottom: solid 2px white;
+	margin: auto;
+	padding-left: 0px;
+	padding-bottom: 20px;
+}
+
+h3
+{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 325%;
+	text-align: center;
+}
+
+hr
+{
+	color: white;
+	background-color: white;
+	height: 2px;
+}
+
+p
+{
+	text-align: center;
+}
+
+#iframe
+{
+	width: 690px;
+	height: 690px;
+	_background-color: burlywood;
+	padding: 20px;
+	margin: auto;
+}
+
+#bild-gross
+{
+	display: none;
+}
+
+#skizze-gross
+{
+	width: 690px;
+	height: 690px;
+	_background-color: burlywood;
+	padding: 20px;
+	margin: auto;
+}
+
+.rund-gross
+{
+	width: 650px;
+	height: 650px;
+	border-radius: 50%;
+	border: solid 2px white;
+}
+
+
+
+#bilder-klein
+{
+	height:270px;
+	_background-color: aqua;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.rund-klein
+{
+	width: 230px;
+	height: 230px;
+	border-radius: 50%;
+	border: solid 2px white;
+}
+
+/* ##### Start GOOGLE MAPS DEF #### */
+#googleMap
+{
+	width: 690px;
+	height: 690px;
+	_background-color: burlywood;
+	padding: 20px;
+	margin: auto;
+}
+
+.rund-gross-gmaps
+{
+	width: 650px;
+	height: 650px;
+	border-radius: 50%;
+	border: solid 2px white;
+}
+/* ##### Ende GOOGLE MAPS DEF #### */
+
+/* ### Ende INHALT ### */
+/* ################## */
+
+
+/* ################## */
+/* ### Start FOOTER ### */
+#drei
+{
+	height: 66px;
+	_background-color: indianred;
+}
+
+#footer
+{
+	height: 66px;
+	_background-color: peachpuff;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+#links
+{
+	width: 300px;
+	_background-color: violet;
+}
+
+#mitte
+{
+	width: 600px;
+	height: 66px;
+	_background-color: cornflowerblue;
+}
+
+#contact
+{
+	width: 250px;
+	font-size: 120%;
+	padding: 6px;
+	text-align: center;
+	position: relative;
+	left: 175px;
+	_background-color: darkkhaki;
+	border-bottom: solid 2px white;
+}
+
+#legal
+{
+	width: 250px;
+	font-size: 75%;
+	padding: 6px;
+	text-align: center;
+	position: relative;
+	left: 175px;
+	_background-color: wheat;
+}
+
+#download
+{
+	height: 100px;
+	_background-color: blueviolet;
+	padding: 20px;
+	text-align: center;
+}
+
+li
+{
+	list-style: disc;
+}
+
+#rechts
+{
+	width: 300px;
+	height: 66px;
+	_background-color: darkgreen;
+}
+
+#social
+{
+	height: 66px;
+	_background-color: coral;
+}
+
+.fa
+{
+	height: 66px;
+	align-items: center;
+	line-height: 66px;
+	padding-right: 20px;
+	float: right;
+}
+/* ##### Ende FOOTER ##### */
+
+
+a
+{
+	color:white;
+	text-decoration:none;
+}
+
+
+
+/* ################################## */
+/* ########## MEDIA QUERY ########### */
+/* ################################## */
+@media screen and (max-width:800px)
+{
+	
+	/* ### MAMA ### */
+	/* Unterseiten LODGE + SPA sind grün */
+	/* Unterseiten CANTINA + BAR sind gelb */
+	#mama, #mama-lodge, #mama-cantina
+	{
+		width: 98%;
+		min-height: 800px;
+	}
+
+
+	/* ###################### */
+	/* ### Start HEAD + NAVI ### */
+	#eins
+	{
+		height: auto;
+		background: url(../images/about_mobile.jpg) fixed;
+		background-size: 100%;
+	}
+
+	#eins-lodge
+	{
+		height: auto;
+		background: url(../images/lodge_mobile.jpg);
+		background-size: 100%;
+	}
+
+	#eins-spa
+	{
+		height: auto;
+		background: url(../images/spa_mobile.jpg);
+		background-size: 100%;
+	}
+
+	#eins-cantina
+	{
+		height: auto;
+		background: url(../images/cantina_mobile.jpg);
+		background-size: 100%;
+	}
+
+	#eins-bar
+	{
+		height: auto;
+		background: url(../images/bar_mobile.jpg);
+		background-size: 100%;
+	}
+
+	#eins-gallery
+	{
+		height: auto;
+		background: url(../images/gallery_mobile.jpg);
+		background-size: 100%;
+	}
+
+	#eins-contacts
+	{
+		height: auto;
+		background: url(../images/contacts_mobile.jpg);
+		background-size: 100%;
+	}
+
+	#logo
+	{
+		height: 175px;
+	}
+
+		h1
+	{
+		font-family: 'Permanent Marker', cursive;
+		font-size: 350%;
+		padding-top: 10px;
+	}
+
+	h2
+	{
+		font-family: 'Permanent Marker', cursive;
+		font-size: 150%;
+		margin-top: -10px;
+	}
+
+	#navi
+	{
+		min-height: auto;
+		background-color: rgb(69, 112, 136);
+		display: block;
+		border-top: solid 2px white;
+		border-bottom: solid 2px white;
+	}
+
+	#navi-lodge
+	{
+		min-height: auto;
+		background-color: rgb(108, 150, 89);
+		display: block;
+		border-top: solid 2px white;
+		border-bottom: solid 2px white;
+	}
+
+	#navi-cantina
+	{
+		min-height: 50px;
+		background-color: rgb(237, 172, 51);
+		display: block;
+		border-top: solid 2px white;
+		border-bottom: solid 2px white;
+	}
+
+	.navipunkte
+	{
+		width: 100%;
+	}
+	/* ### Ende HEAD + NAVI ### */
+
+
+	/* ################## */
+	/* ### Start INHALT ### */
+	#zwei
+	{
+		min-height: auto;
+		_background-color: teal;
+	}
+
+	#inhalt
+	{
+		width: 85%;
+	}
+
+	#inhalt-gallery-mob
+	{
+		display: block;
+		width: 85%;
+		min-height: 434px;
+		_background-color: turquoise;
+		border-bottom: solid 2px white;
+		margin: auto;
+		padding: 20px;
+		padding-bottom: 0px;
+	}
+
+	h3
+	{
+		font-size: 200%;
+	}
+	
+	#iframe
+	{
+		display: none;
+	}
+
+	#bootstrap-slider
+	{
+		display: none;
+	}
+	
+	#bild-gross
+	{
+		display: block;
+		width: 100%;
+		height: auto;
+		padding: none;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.rund-gross
+	{
+		width: 100%;
+		height: 100%;
+		border: solid 2px white;
+	}
+
+	#bilder-klein
+	{
+		width: 100%;
+		height: auto;
+		display: block;
+		justify-content: none;
+		padding: none;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.rund-klein
+	{
+		width: 100%;
+		height: 100%;
+	}
+
+	/* ##### Start GOOGLE MAPS DEF #### */
+	#googleMap
+	{
+		width: 100%;
+		height: auto;
+		padding: none;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.rund-gross-gmaps
+	{
+		width: 100%;
+		height: 100%;
+		/* ??? Warum hat height:100% keine Wirkung??? */
+		border: solid 2px white;
+	}
+	/* ##### Ende GOOGLE MAPS DEF #### */
+
+	/* ### Ende INHALT ### */
+	/* ################## */
+
+
+	/* ################## */
+	/* ### Start FOOTER ### */
+	#drei
+	{
+		height: auto;
+	}
+
+	#footer
+	{
+		height: auto;
+		margin: auto;
+		display: block;
+		justify-content: none;
+	}
+
+	#links
+	{
+		width: 100%;
+		text-align: center;
+		_background-color: violet;
+	}
+
+	#mitte
+	{
+		width: 100%;
+		_background-color: blue;
+	}
+
+	#contact
+	{
+		width: 96%;
+		font-size: 120%;
+		padding: 6px;
+		text-align: center;
+		position: none;
+		left: 6px;
+		border-top: solid 2px white;
+	}
+
+	#legal
+	{
+		width: 90%;
+		font-size: 75%;
+		padding: 6px;
+		text-align: center;
+		position: none;
+		left: 16px;
+	}
+
+	#rechts
+	{
+		width: 100%;
+		height: 66px;
+	}
+
+	#social
+	{
+		height: 66px;
+		display: flex;
+		justify-content: space-evenly;
+		border-top: solid 2px white;
+		_background-color: rgb(53, 87, 105);
+	}
+
+	.fa
+	{
+		height: 66px;
+		align-items: center;
+		float: none;
+	}
+	/* ##### Ende FOOTER ##### */
+
+
+
+
+	img
+	{
+		_max-width:100%;
+		_height: auto;
+	}
+	
+}
